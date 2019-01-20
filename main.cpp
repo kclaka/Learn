@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <algorithm>
 
 using namespace std;
 
@@ -44,3 +46,46 @@ int main(){
 
 
 }*/
+
+/*int main(){
+    //Growing a Vector
+    vector<string> friends;
+
+    friends.push_back("Kevin");
+    friends.push_back("Josh");
+    friends.push_back("Syraa");
+    friends.push_back("Bree");
+    friends.push_back("Chris");
+    friends.push_back("Kyle");
+
+    cout<<friends.size()<<endl;
+
+    for(int i =0; i < friends.size(); ++i){
+        cout<<"one of my Freind's name is "<<friends[i]<<endl;
+    }
+
+
+}*/
+
+/*int main(){
+    //Vector Calculations
+
+    vector<double> scores;
+    cout<<"Enter score values use / to indicate end of score input";
+    for(double score; cin>> score;)
+        scores.push_back(score); //fill the scores vector with student score
+
+
+        //Calculate Average score
+        double sum = 0;
+        for(int x: scores)
+            sum += x;
+        cout<<"Average Score is "<< (sum/scores.size())<<endl;
+
+
+        //Calulate Median
+
+        sort(scores.begin(), scores.end());
+        cout<<"Median Score is "<<scores[scores.size()/2]<<endl;
+}*/
+
