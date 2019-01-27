@@ -89,3 +89,28 @@ int main(){
         cout<<"Median Score is "<<scores[scores.size()/2]<<endl;
 }*/
 
+/*struct student{
+    int studentID;
+    int studentYear;
+    int numClass;
+    float tuition;
+
+};
+
+int main(){
+
+    student johnKerry; //define a new student
+
+    // give values to structure members
+    johnKerry.studentID = 527324;
+    johnKerry.studentYear = 2019;
+    johnKerry.numClass = 4;
+    johnKerry.tuition = 4714.56;
+
+    cout<<"You are taking "<<johnKerry.numClass<<" classes"<<endl;
+    cout<<"Your Tuition is $"<<johnKerry.tuition<<endl;
+
+
+}*/
+
+
